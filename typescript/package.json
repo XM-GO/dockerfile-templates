@@ -1,0 +1,19 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "my js app",
+  "author": "YOUR NAME <you@company>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"node --inspect=0.0.0.0:9229 dist/index.js\"",
+    "build": "tsc",
+    "postinstall": "tsc"
+  },
+  "dependencies": {
+    "typescript": "3.9.10"
+  },
+  "devDependencies": {
+    "tsc-watch": "4.2.3"
+  }
+}
